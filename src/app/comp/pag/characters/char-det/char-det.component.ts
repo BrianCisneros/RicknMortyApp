@@ -11,7 +11,6 @@ import { Location } from '@angular/common';
   styleUrls: ['./char-det.component.css']
 })
 export class CharDetComponent implements OnInit {
-  char$: Observable<char>;
   constructor(private route: ActivatedRoute, private characterSvc: CharService, private location: Location) { }
 
   ngOnInit(): void {
