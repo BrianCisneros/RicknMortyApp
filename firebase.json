@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/ricknmortyapp",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": ".src/app/app.compenent.html"
+      }
+    ]
+  }
+}
